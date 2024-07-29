@@ -1,0 +1,41 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Inter', sans-serif;
+
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #2D2D2A;
+}
+
+main {
+  width: 100vw;
+  height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+#cote {
+  font-size: 6.4rem;
+  font-weight: 500;
+  color: #20FC8F;
+}
+
+#date {
+  color: #3F5E5A;
+}
